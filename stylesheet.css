@@ -1,0 +1,114 @@
+header h1 {
+    text-align: center;
+}
+.h1, header h1 {
+    
+    font-size: 40px;
+    font-family: "Roboto Mono", monospace;
+    color:#667292;
+    font-weight: 700;
+}
+nav {
+    text-align: center;
+    font-size:25px;
+    color:#667292;
+}
+nav li {
+    display: inline;
+    background-color: #bccad6;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+}
+nav li:hover {
+    background-color:#8d9db6;
+}
+body {
+    background-color: #f1e3dd;
+}
+.section-name, .h2, footer {
+    font-size: 35px;
+    font-weight: 500;
+    font-family:"Smooch Sans", sans-serif;
+   
+    color: #8d9db6;
+}
+.section-name {
+     text-align: center;
+    padding: 5px;
+}
+section {
+    border: 2px dashed #bccad6;
+    margin: 5px;
+    padding: 10px;
+}
+.p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Hubballi, cursive;
+}
+.hubballi {
+    font-family: Hubballi, cursive;
+}
+.smooch {
+    font-family: 'Smooch Sans', sans-serif;
+}
+.roboto {
+    font-family: "Roboto Mono", monospace;
+}
+#fonts {
+    font-size: 20px;
+}
+.font-name {
+    color:#667292;
+    background-color: #bccad6;
+    font-size: 30px;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underlined {
+    text-decoration: underline ;
+}
+#fonts div, .style-container {
+    margin: 20px;
+}
+
+.style-container ul {
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+.color-container {
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.color-container div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+.lightsky {
+    background-color:#bccad6;
+}
+.greysky {
+    background-color:#8d9db6;
+}
+.purplesky {
+    background-color:#667292;
+}
+.vanillasky {
+    background-color:#f1e3dd;
+}
+footer {
+    text-align: center;
+}
